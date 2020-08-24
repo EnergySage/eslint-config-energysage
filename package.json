@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-energysage",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "EnergySage FrontEnd Rule Set",
     "author": "EnergySage Energineering Team",
     "contributors": [
