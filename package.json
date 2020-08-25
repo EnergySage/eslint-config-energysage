@@ -30,7 +30,8 @@
     "main": "index.js",
     "files": [
         "index.js",
-        "prettier.js"
+        "prettier.js",
+        "stylelint.js"
     ],
     "scripts": {
         "lint": "eslint --report-unused-disable-directives ."
