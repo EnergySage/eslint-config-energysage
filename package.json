@@ -34,6 +34,7 @@
         "stylelint.js"
     ],
     "scripts": {
+        "test": "npm run lint",
         "lint": "eslint --report-unused-disable-directives ."
     },
     "peerDependencies": {
@@ -53,6 +54,7 @@
         "stylelint": "^13.6.1"
     },
     "dependencies": {
+        "eslint": "^7.5.0",
         "@babel/core": "^7.11.1",
         "@babel/eslint-parser": "^7.11.3",
         "@babel/preset-env": "^7.11.0",
