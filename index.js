@@ -7,7 +7,6 @@
  * eslint-plugin-import - https://github.com/benmosher/eslint-plugin-import
  * eslint-plugin-jest - https://github.com/jest-community/eslint-plugin-jest
  * eslint-plugin-prettier - https://github.com/prettier/eslint-plugin-prettier
- * eslint-plugin-prettier-vue - https://github.com/meteorlxy/eslint-plugin-prettier-vue
  * eslint-plugin-strict-vue - https://github.com/GlebkaF/eslint-plugin-strict-vue
  * eslint-plugin-vue - https://github.com/vuejs/eslint-plugin-vue
  * eslint-plugin-vue-a11y - https://github.com/maranran/eslint-plugin-vue-a11y
@@ -21,14 +20,6 @@ module.exports = {
         // https://github.com/babel/babel/tree/master/eslint/babel-eslint-parser
         parser: '@babel/eslint-parser',
     },
-    settings: {
-        'prettier-vue': {
-            SFCBlocks: {
-                // Conflicts with prettier/prettier
-                template: false,
-            },
-        },
-    },
     plugins: ['strict-vue'],
     extends: [
         'prettier',
@@ -37,7 +28,6 @@ module.exports = {
         'plugin:import/errors',
         'plugin:import/warnings',
         'plugin:vue-a11y/recommended',
-        'plugin:prettier-vue/recommended',
     ],
     rules: {
         'linebreak-style': 'off',
