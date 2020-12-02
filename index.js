@@ -91,9 +91,6 @@ module.exports = {
             },
         ],
 
-        // Don't require arrow parens when there is only one param
-        'arrow-parens': ['error', 'as-needed'],
-
         // Allow certain variables to be reassigned
         'no-param-reassign': [
             'error',
