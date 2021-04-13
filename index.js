@@ -20,14 +20,14 @@ module.exports = {
         // https://github.com/babel/babel/tree/master/eslint/babel-eslint-parser
         parser: '@babel/eslint-parser',
     },
-    plugins: ['strict-vue'],
+    plugins: ['strict-vue', 'vuejs-accessibility'],
     extends: [
         'prettier',
         'airbnb-base',
         'plugin:vue/recommended',
         'plugin:import/errors',
         'plugin:import/warnings',
-        'plugin:vue-a11y/recommended',
+        'plugin:vuejs-accessibility/recommended',
     ],
     rules: {
         'linebreak-style': 'off',
