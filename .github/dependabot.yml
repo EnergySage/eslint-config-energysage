@@ -6,20 +6,3 @@ updates:
     interval: daily
     time: "10:00"
   open-pull-requests-limit: 10
-  ignore:
-  - dependency-name: eslint
-    versions: ["7.x"]
-  - dependency-name: stylelint
-    versions: ["13.x"]
-  - dependency-name: eslint-config-prettier
-    versions: ["8.x"]
-  - dependency-name: "@babel/core"
-    versions: ["7.x"]
-  - dependency-name: eslint-plugin-jest
-    versions: ["24.x"]
-  - dependency-name: "@babel/preset-env"
-    versions: ["7.x"]
-  - dependency-name: eslint-plugin-vue
-    versions: ["7.x"]
-  - dependency-name: "@babel/eslint-parser"
-    versions: ["7.x"]
