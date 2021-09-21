@@ -41,9 +41,3 @@ npm install --dev eslint-config-energysage@latest
         },
     };
 ```
-
-## Improving this config
-
-Consider adding test cases if you're making complicated rules changes, like anything involving regexes. Look to the [CHANGELOG.md](CHANGELOG.md) to see when rules were updated.
-
-You can make sure this module lints with itself using `npm run lint`.
