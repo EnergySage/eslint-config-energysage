@@ -20,9 +20,6 @@ module.exports = {
         // https://github.com/babel/babel/tree/master/eslint/babel-eslint-parser
         parser: '@babel/eslint-parser',
         requireConfigFile: false,
-        babelOptions: {
-            configFile: './babel.config.js',
-        },
     },
     plugins: ['strict-vue', 'vuejs-accessibility'],
     extends: [
