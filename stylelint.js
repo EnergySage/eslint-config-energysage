@@ -16,7 +16,7 @@
 module.exports = {
     ignoreFiles: ['**/*.js'],
     plugins: ['stylelint-scss', 'stylelint-prettier'],
-    customSyntax: 'postcss-scss',
+    customSyntax: 'postcss-html',
     extends: [
         'stylelint-config-recommended',
         'stylelint-config-sass-guidelines',
