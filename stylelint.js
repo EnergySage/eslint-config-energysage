@@ -10,11 +10,13 @@
  * stylelint-config-recommended - https://github.com/stylelint/stylelint-config-recommended
  * stylelint-config-sass-guidelines - https://github.com/bjankord/stylelint-config-sass-guidelines
  * stylelint-prettier/recommended - https://github.com/prettier/stylelint-prettier#recommended-configuration
+ * stylelint-config-recommended-vue/scss - https://github.com/ota-meshi/stylelint-config-recommended-vue
  *
  */
 module.exports = {
     ignoreFiles: ['**/*.js'],
     plugins: ['stylelint-scss', 'stylelint-prettier'],
+    customSyntax: 'postcss-scss',
     extends: [
         'stylelint-config-recommended',
         'stylelint-config-sass-guidelines',
