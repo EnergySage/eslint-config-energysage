@@ -81,7 +81,6 @@ module.exports = {
                 },
                 multiline: {
                     max: 1,
-                    allowFirstLine: false,
                 },
             },
         ],
