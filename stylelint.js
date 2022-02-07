@@ -15,7 +15,12 @@
 module.exports = {
     ignoreFiles: ['**/*.js'],
     plugins: ['stylelint-scss', 'stylelint-prettier'],
-    extends: ['stylelint-config-recommended', 'stylelint-config-sass-guidelines', 'stylelint-prettier/recommended'],
+    extends: [
+        'stylelint-config-recommended',
+        'stylelint-config-sass-guidelines',
+        'stylelint-prettier/recommended',
+        'stylelint-config-recommended-vue/scss',
+    ],
     rules: {
         'prettier/prettier': true,
         // http://stylelint.io/user-guide/rules/max-nesting-depth#max-nesting-depth
