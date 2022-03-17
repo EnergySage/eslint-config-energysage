@@ -15,7 +15,7 @@
  * eslint-config-airbnb-base - https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base
  * eslint-config-prettier - https://github.com/prettier/eslint-config-prettier
  */
-module.exports = {
+module.exports = {d
     parserOptions: {
         // https://github.com/babel/babel/tree/master/eslint/babel-eslint-parser
         parser: '@babel/eslint-parser',
@@ -55,7 +55,43 @@ module.exports = {
             },
         ],
 
+        'vue/html-closing-bracket-newline': [
+            'error',
+            {
+                singleline: 'never',
+                multiline: 'never',
+            },
+        ],
         'vue/html-indent': ['warn', 4],
+
+        'vue/html-closing-bracket-spacing': [
+            'error',
+            {
+                startTag: 'never',
+                endTag: 'never',
+                selfClosingTag: 'always',
+            },
+        ],
+
+        'vue/max-attributes-per-line': [
+            'error',
+            {
+                singleline: {
+                    max: 1,
+                },
+                multiline: {
+                    max: 1,
+                },
+            },
+        ],
+
+        'vue/singleline-html-element-content-newline': [
+            'error',
+            {
+                ignoreWhenNoAttributes: false,
+                ignoreWhenEmpty: true,
+            },
+        ],
 
         // Allow certain variables to be reassigned
         'no-param-reassign': [
