@@ -15,7 +15,7 @@
  * eslint-config-airbnb-base - https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base
  * eslint-config-prettier - https://github.com/prettier/eslint-config-prettier
  */
-module.exports = {d
+module.exports = {
     parserOptions: {
         // https://github.com/babel/babel/tree/master/eslint/babel-eslint-parser
         parser: '@babel/eslint-parser',
