@@ -16,7 +16,16 @@
 module.exports = {
     ignoreFiles: ['**/*.js'],
     plugins: ['stylelint-scss', 'stylelint-prettier'],
-    customSyntax: 'postcss-html',
+    overrides: [
+        {
+            files: ['**/*.{vue}'],
+            customSyntax: 'postcss-html',
+        },
+        {
+            files: ['**/*.{scss}'],
+            customSyntax: 'postcss-scss',
+        },
+    ],
     extends: [
         'stylelint-config-recommended',
         'stylelint-config-sass-guidelines',
