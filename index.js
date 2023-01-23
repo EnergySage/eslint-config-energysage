@@ -9,7 +9,7 @@
  * eslint-plugin-prettier - https://github.com/prettier/eslint-plugin-prettier
  * eslint-plugin-strict-vue - https://github.com/GlebkaF/eslint-plugin-strict-vue
  * eslint-plugin-vue - https://github.com/vuejs/eslint-plugin-vue
- * eslint-plugin-vue-a11y - https://github.com/maranran/eslint-plugin-vue-a11y
+ * eslint-plugin-vuejs-accessibility - https://github.com/vue-a11y/eslint-plugin-vuejs-accessibility
  *
  * Configurations:
  * eslint-config-airbnb-base - https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base
